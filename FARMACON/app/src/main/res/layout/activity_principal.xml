@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout tools:context=".PrincipalActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:gravity="center">
+
+    <ImageView android:layout_height="321dp" android:layout_width="234dp" app:srcCompat="@drawable/icon_user" android:id="@+id/imageView2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:id="@+id/textView" android:textStyle="bold" android:textSize="36sp" android:text="BIENVENIDO AL SISTEMA"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/btnCerrar"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:text="Iniciar Sesión"
+        android:background="#1976d2"/>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
